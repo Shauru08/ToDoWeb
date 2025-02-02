@@ -1,0 +1,71 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo build and cache files
+.expo/
+.expo-shared/
+dist/
+.cache/
+web-build/
+android/
+ios/
+
+# Metro Bundler cache
+metro-cache/
+
+# Temporary files
+*.log
+*.lock
+*.tmp
+
+# React Native Packager files
+*.pack
+*.happypack
+*.swp
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Environment variables and API keys
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# macOS system files
+.DS_Store
+
+# Android build files
+android/.gradle/
+android/.idea/
+android/app/build/
+android/app/src/debug/
+android/app/src/release/
+android/build/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/.cxx/
+android/.externalNativeBuild/
+
+# iOS build files
+ios/Pods/
+ios/.expo/
+ios/build/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+ios/Podfile.lock
+
+# Expo and React Native specific logs
+.expo/*
+.expo-shared/*
+*.expo/*
+debug.log
+error.log
+npm-debug.log
